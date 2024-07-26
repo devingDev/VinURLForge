@@ -165,7 +165,7 @@ dependencies {
 
 mixin {
     // MixinGradle Settings
-    add sourceSets.main, 'vinurl.mixins.json'
+    add sourceSets.client, 'vinurl.mixins.json'
     config 'vinurl.client.mixins.json'
 
     debug.verbose = true
